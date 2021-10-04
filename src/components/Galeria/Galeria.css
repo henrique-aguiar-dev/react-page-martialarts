@@ -1,0 +1,71 @@
+section.galeria {
+	width: 100%;
+	padding: 20px 2% 10px 2%;
+	background-color: rgb(228, 228, 228);
+}
+
+.galeria .container {
+	position: relative;
+	overflow-x: hidden;
+}
+
+.carousel-container {
+	display: inline-flex;
+	position: relative;
+	flex-wrap: nowrap;
+	overflow-x: hidden;
+}
+
+.slide-single {
+	width: 25%;
+	position: relative;
+	display: inline-flex;
+}
+
+.slide-single img {
+	width: 100%;
+}
+
+.carousel-bullets {
+	display: inline-flex;
+	flex-wrap: wrap;
+	margin: 0 auto;
+}
+
+.carousel-bullets span {
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background: rgb(150, 150, 150);
+	margin: 5px 10px;
+	box-sizing: border-box;
+	cursor: pointer;
+}
+
+.active {
+	background: rgb(0, 0, 0) !important;
+}
+
+#navprev,
+#navnext {
+	position: absolute;
+	font-size: 40px;
+	cursor: pointer;
+	color: rgb(153, 242, 253);
+}
+
+#navprev {
+	top: 35%;
+	left: 10px;
+}
+
+#navnext {
+	top: 35%;
+	right: 10px;
+}
+
+@media (max-width: 600px) {
+	.slide-single {
+		width: calc(100% / 8);
+	}
+}

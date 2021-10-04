@@ -1,0 +1,120 @@
+@keyframes slideInLeft {
+	0% {
+		left: 100%;
+	}
+
+	100% {
+		left: 0;
+	}
+}
+
+@keyframes slideBg {
+	0%,
+	100% {
+		background-position: left;
+	}
+
+	50% {
+		background-position: right;
+	}
+}
+
+.headline {
+	height: 100vh;
+	background-position: top center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-blend-mode: overlay;
+	background-attachment: fixed;
+	text-align: center;
+	overflow-x: hidden;
+}
+
+.headline-bg1 {
+	background-image: url("../../media/bg1.webp");
+}
+
+.headline-bg2 {
+	background-image: url("../../media/bg2.webp");
+}
+
+.headline-bg3 {
+	background-image: url("../../media/bg3.webp");
+}
+
+.main-logo {
+	margin: 100px auto 50px auto;
+}
+
+.box-slides{
+	width: 100%;
+}
+
+.slides-headline {
+	color: white;
+	text-shadow: 3px 3px 3px black;
+	position: relative;
+	max-width: 800px;
+	margin: 0 auto;
+	animation: slideInLeft;
+	animation-duration: 2s;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-out;
+}
+
+.slides-headline p {
+	min-height: 100px;
+	font-size: 28px;
+	margin: 36px 0;
+}
+
+.btn-more,
+#btn-send {
+	padding: 15px 35px;
+	border: 1px solid white;
+	border-radius: 5px;
+	color: white;
+	font-size: 1.2em;
+	font-weight: bold;
+	transition: 0.5s;
+}
+
+.btn-more:hover {
+	background-color: var(--hover-dark);
+	color: var(--hover-yellow);
+}
+
+.sh3,
+.sh2,
+.sh3 {
+	display: none;
+}
+
+@media (max-width: 950px) {
+	.headline {
+		height: 90vh;
+		animation-name: slideBg;
+		animation-duration: 12s;
+		animation-iteration-count: infinite;
+		animation-timing-function: ease-in-out;
+		background-attachment: scroll;
+	}
+
+	.main-logo img {
+		width: 100px;
+		height: 100px;
+	}
+
+	.main-logo {
+		margin: 70px auto 20px auto;
+	}
+
+	.slides-headline {
+		padding: 0 2%;
+	}
+
+	.slides-headline p {
+		text-align: left;
+		font-size: 24px;
+	}
+}

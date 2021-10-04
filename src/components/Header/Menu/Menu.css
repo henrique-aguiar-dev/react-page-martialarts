@@ -1,0 +1,52 @@
+.menu-desktop ul li {
+  display: inline;
+  padding: 10px;
+}
+
+.menu-desktop ul li a,
+.menu-mobile ul li a {
+  color: rgb(255, 255, 255);
+  font-size: 1.2em;
+  transition: 0.5s;
+}
+
+.menu-mobile ul li {
+  padding: 10px;
+}
+
+.menu-desktop ul li a:hover,
+.menu-mobile ul li a:hover {
+  color: var(--hover-yellow);
+}
+
+.menu-mobile {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.95);
+  position: absolute;
+  top: 110px;
+  left: 0;
+  z-index: 10;
+  padding: 10px 10px 10px 60px;
+  transition: 0.5s;
+  display: none;
+}
+
+.menu-mobile ul li {
+  list-style-type: none;
+}
+
+.icon-menu-mob {
+	display: none;
+	font-size: 36px;
+	cursor: pointer;
+}
+
+@media (max-width: 950px) {
+	.icon-menu-mob {
+		display: block;
+	}
+
+	.menu-desktop {
+		display: none;
+	}
+}
