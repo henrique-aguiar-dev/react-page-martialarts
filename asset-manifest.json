@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/react-page-martialarts/static/css/main.84033c69.chunk.css",
+    "main.js": "/react-page-martialarts/static/js/main.07b68369.chunk.js",
+    "main.js.map": "/react-page-martialarts/static/js/main.07b68369.chunk.js.map",
+    "runtime-main.js": "/react-page-martialarts/static/js/runtime-main.84ace28a.js",
+    "runtime-main.js.map": "/react-page-martialarts/static/js/runtime-main.84ace28a.js.map",
+    "static/js/2.d4ee6ef0.chunk.js": "/react-page-martialarts/static/js/2.d4ee6ef0.chunk.js",
+    "static/js/2.d4ee6ef0.chunk.js.map": "/react-page-martialarts/static/js/2.d4ee6ef0.chunk.js.map",
+    "index.html": "/react-page-martialarts/index.html",
+    "static/css/main.84033c69.chunk.css.map": "/react-page-martialarts/static/css/main.84033c69.chunk.css.map",
+    "static/js/2.d4ee6ef0.chunk.js.LICENSE.txt": "/react-page-martialarts/static/js/2.d4ee6ef0.chunk.js.LICENSE.txt",
+    "static/media/GlobalFonts.css": "/react-page-martialarts/static/media/Montserrat-Regular.d4f770a4.ttf",
+    "static/media/Headline.css": "/react-page-martialarts/static/media/bg3.9b500177.webp",
+    "static/media/custom-font-awesome.css": "/react-page-martialarts/static/media/fontawesome-webfont.f691f37e.woff",
+    "static/media/ilust1.webp": "/react-page-martialarts/static/media/ilust1.9d78a0f7.webp",
+    "static/media/ilust2.webp": "/react-page-martialarts/static/media/ilust2.ee73d39e.webp",
+    "static/media/ilust3.webp": "/react-page-martialarts/static/media/ilust3.5cb117a7.webp",
+    "static/media/ilust4.webp": "/react-page-martialarts/static/media/ilust4.669188e6.webp",
+    "static/media/ilust5.webp": "/react-page-martialarts/static/media/ilust5.a14dbe49.webp",
+    "static/media/ilust6.webp": "/react-page-martialarts/static/media/ilust6.8db74deb.webp",
+    "static/media/Header.css": "/react-page-martialarts/static/media/logo-branco.ca28bc19.png",
+    "static/media/main-logo-branco.png": "/react-page-martialarts/static/media/main-logo-branco.84e28d0c.png",
+    "static/media/Onde.css": "/react-page-martialarts/static/media/mapa.1e9e44d2.webp",
+    "static/media/Modalidades.css": "/react-page-martialarts/static/media/section2.07d7e834.webp",
+    "static/media/Contato.css": "/react-page-martialarts/static/media/section3.017a40d6.webp",
+    "static/media/Sobre.css": "/react-page-martialarts/static/media/sobre.87282737.webp"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.84ace28a.js",
+    "static/js/2.d4ee6ef0.chunk.js",
+    "static/css/main.84033c69.chunk.css",
+    "static/js/main.07b68369.chunk.js"
+  ]
+}
