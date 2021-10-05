@@ -1,0 +1,109 @@
+.contato {
+	background: url("../../media/section3.webp"), rgba(0, 0, 0, 0.3);
+	background-blend-mode: overlay;
+	background-size: cover;
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	color: white;
+}
+
+.form-contato {
+	max-width: 800px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.form {
+	width: 100%;
+	line-height: 30px;
+	margin: 5px 0;
+	outline: none;
+	font-family: inherit;
+	font-size: inherit;
+	padding: 5px;
+	border-radius: 5px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+input.nome,
+input.sel-mod,
+input.msg {
+	width: 100%;
+}
+
+input.email,
+input.tel {
+	width: calc(50% - 5px);
+}
+
+.email {
+	margin-right: 5px;
+}
+
+.tel {
+	margin-left: 5px;
+}
+
+.form textarea {
+	height: 200px;
+	resize: none;
+}
+
+.sel-mod {
+	background-color: white;
+	padding: 9px;
+}
+
+.alert-submit{
+	width: 100%;
+}
+
+.alert-submit p {
+	font-size: 18px;
+	font-weight: bold;
+	width: 100%;
+	margin: 0 auto;
+	display: none;
+}
+
+#msg-sended {
+	color: rgb(134, 204, 134);
+}
+
+#msg-error {
+	color: rgb(231, 141, 141);
+}
+
+#btn-send {
+	background-color: black;
+	cursor: pointer;
+	margin: 10px auto;
+}
+
+#btn-send:hover {
+	color: var(--hover-yellow);
+}
+
+@media (max-width: 600px) {
+	.contato {
+		background-attachment: scroll;
+		background-position: center top;
+		background-size: 100%;
+	}
+
+	.form {
+		display: block;
+	}
+
+	input.email,
+	input.tel {
+		width: 100%;
+		margin: 5px 0;
+	}
+
+	.alert-submit p {
+		font-size: 16px;
+	}
+}

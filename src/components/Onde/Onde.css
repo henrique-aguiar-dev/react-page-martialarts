@@ -1,0 +1,47 @@
+.onde-left{
+	width: 50%;
+}
+
+.onde-left .map{
+	width: 300px;
+	height: 300px;
+	background-image: url('../../media/mapa.webp');
+	background-position: center;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+}
+
+.onde-right{
+	width: 50%;
+	text-align: left;
+}
+
+.onde-right i {
+	margin: 5px 10px 5px 0;
+	font-size: 25px;
+}
+
+.onde-right a,
+.onde-right p{
+	margin: 5px 0;
+	color: black;
+}
+
+@media (max-width: 950px) {
+	.onde-left,
+	.onde-right{
+		width: 100%;
+	}
+
+	.onde-left{
+		margin-bottom: 20px;
+	}
+}
+
+@media (max-width: 600px) {
+	.onde-left .map{
+		width: 250px;
+		height: 250px;
+	}
+}

@@ -1,0 +1,9 @@
+footer.footer {
+	padding: 20px 2%;
+}
+
+.box-footer p,
+.box-footer a{
+	font-size: 12px;
+	color: white;
+}

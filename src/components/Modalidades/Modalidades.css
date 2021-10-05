@@ -1,0 +1,48 @@
+.modalidades {
+	background: url("../../media/section2.webp"), var(--grad-blue-white);
+	background-blend-mode: overlay;
+	background-size: cover;
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	color: white;
+}
+
+.mod-left {
+	width: 60%;
+	padding: 20px;
+	text-align: left;
+	font-size: 28px;
+	line-height: 1.5em;
+	font-weight: bold;
+	text-shadow: 3px 3px 3px rgb(0, 0, 0);
+}
+
+.mod-left span {
+	font-family: "Montserrat";
+	margin-left: 10px;
+}
+
+.mod-right {
+	width: 40%;
+}
+
+@media (max-width: 950px) {
+	.mod-left {
+		width: 100%;
+	}
+
+	.mod-right {
+		display: none;
+	}
+}
+
+@media (max-width: 600px) {
+	.modalidades {
+		background-attachment: scroll;
+	}
+
+	.mod-left {
+		font-size: 18px;
+	}
+}
