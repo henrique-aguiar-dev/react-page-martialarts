@@ -33,7 +33,7 @@ const Galeria = () => {
 		}
 
 		carouselBuilder(carousel);
-	}, []);
+	});
 
 	return (
 		<section className="galeria">
